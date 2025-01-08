@@ -5,7 +5,7 @@ Tested to work on GH200 machine with ARM 64 vCPU 432GiB of RAM and 96GB of VRAM.
 
 Please share your results of how the scalability is with big text files!
 
-(C)Tsubasa Kato - 2025/1/9 - 0:37AM JST
+(C)Tsubasa Kato - Inspire Search Corp - 2025/1/9 - 0:37AM JST
 Created with the help of ChatGPT - o1
 
 To compile:
