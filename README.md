@@ -3,7 +3,7 @@ Parallel Search &amp; Replace using OpenMP and CUDA
 
 Tested to work on GH200 machine with ARM 64 vCPU 432GiB of RAM and 96GB of VRAM.
 
-![Screenshot of this script running on GH200]([[http://url/to/img.png]](https://github.com/stingraze/CUDA-OpenMP-Search-And-Replace/blob/main/cuda-openmp-word-replacer2.jpg)
+![Screenshot of this script running on GH200](https://github.com/stingraze/CUDA-OpenMP-Search-And-Replace/blob/main/cuda-openmp-word-replacer2.jpg)
 
 Please share your results of how the scalability is with big text files!
 
