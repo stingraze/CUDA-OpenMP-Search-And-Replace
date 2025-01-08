@@ -8,6 +8,8 @@ Please share your results of how the scalability is with big text files!
 (C)Tsubasa Kato - 2025/1/9 - 0:37AM JST
 Created with the help of ChatGPT - o1
 
+To compile:
+
 ```
 nvcc -c hybrid_search_replace.cu -o hybrid_search_replace_cuda.o
 ```
