@@ -10,13 +10,17 @@ Created with the help of ChatGPT - o1
 
 To compile:
 
+1.
+
 ```
 nvcc -c hybrid_search_replace.cu -o hybrid_search_replace_cuda.o
 ```
+2.
 
 ```
 g++ -fopenmp -c hybrid_search_replace.cpp -o hybrid_search_replace_openmp.o
 ```
+3.
 
 ```
 g++ -fopenmp hybrid_search_replace_cuda.o hybrid_search_replace_openmp.o -o hybrid_search_replace -lcudart -L/usr/local/cuda/lib64
