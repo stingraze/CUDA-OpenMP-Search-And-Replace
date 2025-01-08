@@ -29,3 +29,9 @@ g++ -fopenmp -c hybrid_search_replace.cpp -o hybrid_search_replace_openmp.o
 g++ -fopenmp hybrid_search_replace_cuda.o hybrid_search_replace_openmp.o -o hybrid_search_replace -lcudart -L/usr/local/cuda/lib64
 ```
 
+How to use:
+
+```
+./hybrid_search_replace input.txt output.txt "old_word" "new_word"
+
+```
